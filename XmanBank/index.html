@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XmanBank</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts/sansus_webissimo/fonts.css">
+    <link rel="stylesheet" href="fonts/helvetica/fonts.css">
+    <link rel="stylesheet" href="fonts/bebas/fonts.css">
+
+</head>
+<body>
+    <div class="total_wrapper">
+        <div class="wrap">
+            <header>
+                <div class="flexTop">
+                    <div class="logo">
+                        <div class="image__logo">
+                            <img src="img/logo.png" alt="X_Bank">
+                        </div>
+                        <div class="title__logo">Xman<span class="secondWord">Bank</span>
+                        </div>
+                    </div>
+                    <div class="rightNav">
+                        <ul class="generalPos">
+                            <li><a class="personal-office" href="#">My account</a></li>
+                            <li><a class="personal-office" href="#">Settings</a></li>
+                            <li><a class="personal-office" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="position__navBar">
+                    <ul class="generalNavBar__list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our services</a></li>
+                        <li><a href="#">Deposits</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <div class="callUs">Call us: (2457) 555 333 222</div>
+                    <div class="clearfix"></div>
+                </div>
+            </header>
+    
+    
+            <section class="content">
+                <div class="sliderWrap">
+                    <div class="wrapper">
+                        <input type="radio" name="point" id="slide1" checked>
+                        <input type="radio" name="point" id="slide2">
+                        <input type="radio" name="point" id="slide3">
+                        <input type="radio" name="point" id="slide4">
+                        <input type="radio" name="point" id="slide5">
+                        <div class="slider">
+                            <div class="slides slide1">
+                                <div class="slede__text">
+                                    <p class="first-string">All digital gold is</p>
+                                    <p class="second-string">backed 100%</p>
+                                    <p class="third-string">by visible gold in vault</p>
+                                    <p class="third-string">audited every day.</p>                                    
+                                </div>
+                            </div>
+                            <div class="slides slide2"></div>
+                            <div class="slides slide3">
+                                <div class="slede__text">
+                                    <p class="first-string">All digital gold is</p>
+                                    <p class="second-string">backed 100%</p>
+                                    <p class="third-string">by visible gold in vault</p>
+                                    <p class="third-string">audited every day.</p>                                    
+                                </div>
+                            </div>
+                            <div class="slides slide4"></div>
+                            <div class="slides slide5"></div>
+                        </div>
+                        <div class="controls">
+                            <label for="slide1"></label>
+                            <label for="slide2"></label>
+                            <label for="slide3"></label>
+                            <label for="slide4"></label>
+                            <label for="slide5"></label>
+                        </div>
+                    </div>
+                </div>
+                <div id="login-form">
+                    <div class="custamer">
+                        <img src="img/user.png" alt="">
+                        <span>Custamer login</span>
+                    </div>
+                    <fieldset>
+                        <form action="javascript:void(0);" method="get">
+                            <input type="email" required value="" placeholder="User name"> 
+                            <input type="password" required value="" placeholder="Password">
+                            <div class="lobin_help">
+                                <p class="remember_me">
+                                    <label for="">
+                                        <input type="checkbox" id="remember_me">Remember me
+                                    </label>
+                                </p>
+                                <p class="forget__pass">
+                                    <a href="javascript:void(0);">Forget your password?</a>
+                                </p>  
+                            </div>
+                            
+                            
+                            <input type="submit" value="Log in">
+                        </form>
+                        <p class="member">Not a member?</p>
+                        <button class="open_account">Open an account</button>
+                    </fieldset>
+                </div>
+                <div class="clearfix"></div>
+    
+                <div class="buttom_content">
+                    <div class="specialties">
+                        <p class="title-buttom-content">Our <span class="red_text">Specialties</span></p>
+                        <ul class="specialties__list">
+                            <li><img src="img/check-mark.png" alt="">Lorem Ipsum is simply dummy text for demo </li>
+                            <li><img src="img/check-mark.png" alt="">Printing and typesetting industry and dummy text</li>
+                            <li><img src="img/check-mark.png" alt="">Lorem Ipsum has been the industrys standered </li>
+                            <li><img src="img/check-mark.png" alt="">Standard dummy text ever since  ever you can</li>
+                            <li><img src="img/check-mark.png" alt="">When an unknown printer took likes and many</li>
+                        </ul>
+                    </div>
+                    <div class="wrap_HIT">
+                        <p class="title-buttom-content ml">How it <span class="red_text">works</span></p>
+                        <ul class="how_it_works">
+                            <li>
+                                <div class="position_left">
+                                    <img src="img/check_value.png" alt="">
+                                    <span class="text_step">Check value</span>
+                                </div>
+                                <canvas class="position_left" id="arrow"></canvas>
+                            </li>
+                            <li>
+                                <div class="position_left">
+                                    <img src="img/gold_copy.png" alt="">
+                                    <span class="text_step">Buy gold</span>
+                                </div>
+                                <canvas class="position_left" id="arrow1"></canvas>
+                            </li>
+                            <li>
+                                <div class="position_left">
+                                    <img src="img/make_payment.png" alt="">
+                                    <span class="text_step">Make payments</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </section>
+    
+    
+            
+        </div>
+        <footer>
+            <div class="left_section">100% SECURE</div>
+            <div class="right_section">
+                <span class="mr">Copyright &#169; 2013</span>
+                <span>Cssauthor.com</span>
+            </div>
+            <div class="clearfix"></div>
+        </footer>
+    </div>
+
+    <script>
+        var arrow = document.getElementById("arrow"),
+            ctx = arrow.getContext('2d');
+        arrow.height = 80;
+        arrow.width  = 50;
+        ctx.strokeStyle = '#737070';
+        ctx.beginPath();
+        ctx.moveTo(0, 10);
+        ctx.lineTo(30, 45);
+        ctx.lineTo(0, 80);
+        ctx.stroke();
+
+        var arrow1 = document.getElementById("arrow1"),
+            ctx = arrow1.getContext('2d');
+        arrow1.height = 80;
+        arrow1.width  = 50;
+        ctx.strokeStyle = '#737070';
+        ctx.beginPath();
+        ctx.moveTo(0, 10);
+        ctx.lineTo(30, 45);
+        ctx.lineTo(0, 80);
+        ctx.stroke();
+    </script>
+    
+</body>
+</html>

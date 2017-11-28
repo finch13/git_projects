@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Microsoft_New_Tai_Lue';
+    src: url("Microsoft_New_Tai_Lue .ttf") format("opentype");
+}
+
+@font-face {
+    font-family: 'ACaslonPro-Regular';
+    src: url("ACaslonPro-Regular.otf") format("opentype");
+}

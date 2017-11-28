@@ -1,0 +1,265 @@
+body {
+    font-family: 'Sintony', sans-serif;
+    color: #5c6369;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+p {
+    line-height: 1.8em;
+}
+
+
+.main-header {
+    padding: 24px 0;
+}
+
+.menu__item {
+    font-weight: 700;
+    font-size: 14px;
+    color: #2c465a;
+    text-transform: uppercase;    
+}
+
+.cta {
+    background: #fea100;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 0;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    border: none;
+    text-align: center;
+}
+.cta:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.book__icon { 
+    background-image: url('../img/order.png');
+    width: 21px;
+    height: 17px;
+    display: block;
+    margin-right: 13px;
+}
+
+.offer {
+    background: url('../img/first-bg.jpg') no-repeat center top;
+
+}
+.title {
+    padding: 212px 0;
+}
+.title__heading {
+    font-weight: 700;
+    font-size: 56px;
+    color: #fff;
+}
+.title__desc {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -18px;
+}
+.title__desc span {
+    color: #fea100;
+}
+
+
+.call {
+    background: #edf1f3;
+    border-bottom: 1px solid #dde3e7;
+}
+.phone {
+    margin-top: 25px;
+    width: 470px;
+}
+.phone__text {
+    background: url('../img/phone.png') no-repeat left center;
+    text-transform: uppercase;
+    color: #14141d;
+    font-weight: 700;
+    padding-left: 56px;
+    width: 200px;
+    padding-top: 5px;
+}
+.phone__text span {
+    color: #fea100;
+    font-size: 16px;
+    margin-top: -4px;
+    display: block;
+}
+.phone__digits {
+    font-size: 32px;
+    font-weight: 700;
+    color: #14141d;
+    font-family: 'Playfair Display', serif;
+    margin-left: 45px;
+    margin-top: -5px;
+}
+
+
+.about {
+    padding: 65px 0 100px 0;
+}
+.history {
+    margin-top: 60px;
+}
+.history__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #14141d;
+}
+.histoy__text {
+    font-size: 14px;
+}
+.history__button {
+    width: 148px;
+    margin-top: 50px;
+}
+
+.food-images__item {
+    margin-bottom: 10px;
+}
+.food-images-down {
+    margin-top: 50px;
+}
+
+
+/* Section SPECIAL */
+
+.special {
+    background: url('../img/third-bg.jpg') no-repeat center top;
+    padding-top: 80px;
+}
+.special-title {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+
+.food {
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+    margin-bottom: 125px;
+    margin-top: 20px;
+}
+.food__img {
+    margin-bottom: 45px;
+}
+.food__title {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.food__desc {
+    font-size: 14px;
+    padding: 0 50px;
+    margin-bottom: 67px;
+}
+
+.food__details {
+    border-top: 1px solid #e1e1e1;
+    color: #14141d;
+    padding: 15px 0;
+    margin: 0 45px;
+} 
+.food__del {
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 78px;
+    text-align: left;
+    border-right: 1px solid #e1e1e1;
+    margin-right: 18px;
+}
+.food__del span {
+    color: #fe70a4;
+}
+.food__phone {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+}
+.food__price {
+    color: #fea100;
+    font-size: 30px;
+}
+
+/* Section FOOTER */
+
+.footer {
+    background: #373844;
+    color: #8e9198;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 72px 106px;
+}
+.social__item a {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: block;
+
+}
+.social__item_fb a {
+    background: #3b5998 url('../img/fb.png') no-repeat center center;
+}
+.social__item_tw a {
+    background: #55acee url('../img/tw.png') no-repeat center center;
+    margin: 0 7px;
+}
+.social__item_g a {
+    background: #dd4b39 url('../img/g.png') no-repeat center center;
+}
+
+.line {
+    background: #52535e;
+    height: 1px;
+    margin-top: 54px;
+}
+.credits {
+    margin-top: 43px;
+    text-align: center;
+}
+
+
+.modal-window {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.modal__overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.modal__body {
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background: #fff;
+    margin-left: -200px;
+    margin-top: -100px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px black;
+}
+.show {
+    display: block !important;
+}
